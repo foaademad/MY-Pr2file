@@ -386,7 +386,7 @@ export const aboutMe = {
   phone: '+20 01099460174',
   github: 'github.com/foaademad',
   linkedin: 'www.linkedin.com/in/fouad-el-bakly-2ba15a251/',
-  profileImage: '../assets/image/img.jpg',
+  profileImage: './src/assets/image/img.jpg',
   bio: `I'm a passionate Frontend Developer with 1-2 years of experience specializing in creating beautiful, functional, and user-centered digital experiences. With a strong foundation in React and TypeScript, I build applications that are not only visually appealing but also performant and maintainable.
   My approach combines technical expertise with creative problem-solving to deliver solutions that exceed client expectations. I believe that great software is not just about code—it's about creating value through thoughtful design and robust implementation.
   When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge through tech meetups and blog posts.`
