@@ -221,7 +221,7 @@ export const projects: Project[] = [
     demoUrl: 'https://burggger.netlify.app/',
     repoUrl: 'https://github.com/foaademad',
     featured: false,
-    category: 'design'
+    category: 'web'
   },
   {
     id: 'project17',
