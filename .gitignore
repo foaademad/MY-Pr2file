@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# في ملف .gitignore
+*.jpg
+*.png
