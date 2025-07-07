@@ -106,8 +106,9 @@ const AboutSection: React.FC = () => {
 
               <div className="mt-8">
                 <a 
-                  href="https://drive.google.com/file/d/12QigqL3-nQojgjwDemfJV20Yn8kepT8s/view?usp=drive_link" 
+                  href="/Fouad Emad (Front End).pdf" // Replace with your actual resume file path
                   target="_blank"
+                  download="My_Resume.pdf"
                   className="inline-flex items-center justify-center w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors shadow-sm"
                 >
                   Download Resume
