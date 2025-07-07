@@ -62,7 +62,7 @@ export const projects: Project[] = [
   {
     id: 'project25',
     title: 'petalya Company',
-    description: 'Official company for web services, business solutions, website design, website hosting, e-marketing services, website programming and design',
+    description: 'At petalya , we believe that flowers are more than just gifts — they’re emotions, beautifully arranged. We specialize in delivering fresh, high-quality flowers and custom floral arrangements for every occasion: birthdays, anniversaries, weddings, and more.',
     image: './image/petalya.png',
     technologies: ['React', 'Redux', 'TypeScript', 'Redux Toolkit ','Twilind', 'Sass', ' Router'],
     demoUrl: 'https://petalya.org/',
@@ -93,6 +93,17 @@ export const projects: Project[] = [
     featured: false,
     category: 'web'
 
+  },
+  {
+    id: 'project26',
+    title: 'Fresh & Healthy Food Website',
+    description: 'At Fresh & Healthy Food , we’re passionate about helping you eat better, feel better, and live better. We offer freshly prepared, healthy meals made from natural ingredients — no preservatives, no junk, just pure nutrition.',
+    image: './image/Fresh&Healthy.png',
+    technologies: ['React', 'Redux', 'TypeScript', 'Redux Toolkit ','Twilind', 'Sass', ' Router'],
+    demoUrl: 'https://gradiation-project-e-commerce.vercel.app/',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'web'
   },
   {
     id: 'project3',
@@ -134,6 +145,18 @@ export const projects: Project[] = [
     image: './image/CApsula.png',
     technologies: ['Html', 'Css', 'JavaScript', 'Sass' ],
     demoUrl: 'https://capsule1.netlify.app/',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'web'
+
+  },
+  {
+    id: 'project23',
+    title: 'Ecommerce Website',
+    description: 'this site provide e-commerce functionality, such as: Displaying a catalog of products (e.g., clothing, electronics, or jewelry), similar to React-Ecommerce’s product listings. Enabling users to browse, add items to a cart, and simulate checkout, akin to Ecommerce-React’s shopping features.',
+    image: './image/e-commerce.png',
+    technologies: ['React', 'Redux', 'Twilind', 'Sass','TypeScript', ' Router'],
+    demoUrl: 'https://react-e-commerce-pearl.vercel.app/',
     repoUrl: 'https://github.com/foaademad',
     featured: false,
     category: 'web'
@@ -323,18 +346,7 @@ export const projects: Project[] = [
 
   }
   ,
-  {
-    id: 'project23',
-    title: 'Ecommerce Website',
-    description: 'this site provide e-commerce functionality, such as: Displaying a catalog of products (e.g., clothing, electronics, or jewelry), similar to React-Ecommerce’s product listings. Enabling users to browse, add items to a cart, and simulate checkout, akin to Ecommerce-React’s shopping features.',
-    image: './image/e-commerce.png',
-    technologies: ['React', 'Redux', 'Twilind', 'Sass','TypeScript', ' Router'],
-    demoUrl: 'https://react-e-commerce-pearl.vercel.app/',
-    repoUrl: 'https://github.com/foaademad',
-    featured: false,
-    category: 'web'
-
-  }
+  
   
 ];
 
