@@ -57,6 +57,19 @@ export const projects: Project[] = [
     repoUrl: 'https://github.com/foaademad',
     featured: true,
     category: 'web'
+  }
+  ,
+  {
+    id: 'project25',
+    title: 'petalya Company',
+    description: 'Official company for web services, business solutions, website design, website hosting, e-marketing services, website programming and design',
+    image: './image/petalya.png',
+    technologies: ['React', 'Redux', 'TypeScript', 'Redux Toolkit ','Twilind', 'Sass', ' Router'],
+    demoUrl: 'https://petalya.org/',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'web'
+
   },
   {
     id: 'project2',
@@ -68,6 +81,18 @@ export const projects: Project[] = [
     repoUrl: 'https://github.com/foaademad',
     featured: true,
     category: 'web'
+  },
+  {
+    id: 'project24',
+    title: 'Company Profile',
+    description: 'Official company for web services, business solutions, website design, website hosting, e-marketing services, website programming and design',
+    image: './image/profileCompany.png',
+    technologies: ['React', 'Redux',  'Redux Toolkit ','Twilind', 'Sass','TypeScript', ' Router'],
+    demoUrl: 'https://clever-code-co.vercel.app/',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'web'
+
   },
   {
     id: 'project3',
@@ -310,6 +335,7 @@ export const projects: Project[] = [
     category: 'web'
 
   }
+  
 ];
 
 export const services: Service[] = [
