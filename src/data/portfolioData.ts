@@ -33,12 +33,17 @@ export interface Experience {
 
 export const skills: Skill[] = [
   { name: 'React', level: 95, category: 'frontend' },
-  { name: 'TypeScript', level: 90, category: 'frontend' },
+  { name: 'TypeScript', level: 95, category: 'frontend' },
   { name: 'JavaScript', level: 95, category: 'frontend' },
   { name: 'HTML/CSS', level: 95, category: 'frontend' },
   { name: 'Tailwind CSS', level: 97, category: 'frontend' },
-  { name: 'Redux', level: 85, category: 'frontend' },
-  { name: 'Next.js', level: 80, category: 'frontend' },
+  { name: 'Redux', level: 95, category: 'frontend' },
+  { name: 'Next.js', level: 95, category: 'frontend' },
+  { name: 'React Native', level: 90, category: 'frontend' },
+  { name: 'Node.js', level: 90, category: 'backend' },
+  { name: 'Express.js', level: 95, category: 'backend' },
+  { name: 'MongoDB', level: 95, category: 'backend' },
+  { name: 'REST APIs', level: 90, category: 'backend' },
   { name: 'Git', level: 99, category: 'tools' },
   { name: 'Figma', level: 95, category: 'tools' },
   { name: 'Problem Solving', level: 90, category: 'soft' },
@@ -353,8 +358,8 @@ export const projects: Project[] = [
 export const services: Service[] = [
   {
     id: 'service1',
-    title: 'Frontend Development',
-    description: 'Building beautiful, responsive user interfaces with React, TypeScript, and modern CSS frameworks.',
+    title: 'Full-Stack Development (MEAN)',
+    description: 'Designing and building end-to-end web apps with MongoDB, Express.js, Angular, and Node.js.',
     icon: 'code'
   },
   {
@@ -366,7 +371,7 @@ export const services: Service[] = [
   {
     id: 'service3',
     title: 'Web Application Development',
-    description: 'Developing full-stack web applications with secure authentication, data management, and API integration.',
+    description: 'Developing robust full-stack applications with secure auth, data persistence, and API integration.',
     icon: 'monitor'
   },
   {
@@ -384,7 +389,7 @@ export const services: Service[] = [
   {
     id: 'service6',
     title: 'Technical Consultation',
-    description: 'Providing expert advice on frontend architecture, technology choices, and implementation strategies.',
+    description: 'Providing expert advice on full-stack (MEAN) architecture, technology choices, and deployment strategies.',
     icon: 'message-square'
   }
 ];
@@ -393,39 +398,39 @@ export const experiences: Experience[] = [
   {
     id: 'exp1',
     company: 'Freelancer Web Development',
-    position: 'Frontend Developer',
+    position: 'Full-Stack Developer (MEAN)',
     duration: '2024 - Present',
     description: [
-      'Designed and built responsive web applications for various clients using React and TypeScript',
-      'Developed a reusable component library, cutting project delivery time by 40%',
-      'Managed full project lifecycles, from client consultations to final deployment',
-      'Partnered with designers to create pixel-perfect, user-centric interfaces'
+      'Designed and built full-stack web apps using MongoDB, Express.js, Angular/React, and Node.js',
+      'Implemented REST APIs, JWT authentication, and role-based access control',
+      'Managed deployments and CI/CD pipelines on platforms like Vercel and Render',
+      'Collaborated across design and engineering to deliver performant, user-centric solutions'
     ]
   },
   {
     id: 'exp2',
     company: 'Yes Course Company',
-    position: 'Instructor Frontend Developer',
+    position: 'Instructor Full-Stack Developer (MEAN)',
     duration: '2023 - 2024',
     description: [
-      'Created and taught engaging frontend development courses focused on React and modern JavaScript',
-      'Guided students in building practical projects to enhance their coding skills',
-      'Developed detailed learning resources, including tutorials and coding challenges',
-      'Provided expert advice on state management (Redux, Context API) and API integration'
+      'Taught full-stack (MEAN) development with real-world projects and best practices',
+      'Guided students through building RESTful APIs, authentication, and database modeling',
+      'Developed learning materials covering Angular, Node.js, Express, and MongoDB',
+      'Mentored on state management, performance optimization, and deployment workflows'
     ]
   }
 ];
 
 export const aboutMe = {
   name: 'Fouad Emad',
-  title: 'Frontend React Developer',
+  title: 'Full-Stack Developer (MEAN Stack)',
   location: 'Egypt, Beheira Governorate',
   email: 'Foaademad66@gmail.com',
   phone: '+20 01099460174',
   github: 'github.com/foaademad',
   linkedin: 'www.linkedin.com/in/fouad-el-bakly-2ba15a251/',
   profileImage: './image/img.jpg',
-  bio: `I'm a passionate Frontend Developer with 1-2 years of experience specializing in creating beautiful, functional, and user-centered digital experiences. With a strong foundation in React and TypeScript, I build applications that are not only visually appealing but also performant and maintainable.
-  My approach combines technical expertise with creative problem-solving to deliver solutions that exceed client expectations. I believe that great software is not just about code—it's about creating value through thoughtful design and robust implementation.
-  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge through tech meetups and blog posts.`
+  bio: `I'm a Full-Stack Developer (MEAN) with 1-2 years of experience building scalable, user-centered applications. I work across the stack with MongoDB, Express.js, Angular/React, and Node.js to deliver performant, maintainable solutions.
+  I combine clean architecture with pragmatic problem-solving to create real business value, from intuitive UIs to secure APIs and efficient data models.
+  When I'm not coding, I explore new technologies, contribute to open source, and share knowledge through meetups and content.`
 };

@@ -99,14 +99,14 @@ const AboutSection: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Specialization</p>
-                    <p className="font-medium text-gray-900 dark:text-white">Frontend Development</p>
+                    <p className="font-medium text-gray-900 dark:text-white">Full-Stack Development (MEAN)</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-8">
                 <a 
-                  href="/Fouad Emad (Front End).pdf" // Replace with your actual resume file path
+                  href="/Fouad Emad Full-Stack Developer (MEAN Stack).pdf"
                   target="_blank"
                   download="My_Resume.pdf"
                   className="inline-flex items-center justify-center w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors shadow-sm"
@@ -167,6 +167,12 @@ const AboutSection: React.FC = () => {
                     Frontend Development
                   </h4>
                   {frontendSkills.map(skill => renderSkillBar(skill))}
+                </div>
+                <div>
+                  <h4 className="text-lg font-medium text-gray-900 dark:text-white mb-4 transition-colors">
+                    Backend Development
+                  </h4>
+                  {backendSkills.map(skill => renderSkillBar(skill))}
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white  mb-4 transition-colors">

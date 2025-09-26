@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
   const typingRef = useRef<HTMLSpanElement>(null);
   
   useEffect(() => {
-    const texts = ["Frontend Developer", "React Specialist", "TypeScript Expert", "UI Enthusiast"];
+    const texts = ["Full-Stack Developer", "MEAN Specialist", "Node.js & Express", "MongoDB & React"];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
