@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Moon, Sun, Github, Linkedin, Twitter } from 'lucide-react';
+import { Menu, X, Moon, Sun, Github, Linkedin,  } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { useNavigation } from '../context/NavigationContext';
 import { aboutMe } from '../data/portfolioData';

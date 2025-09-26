@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Mail, Phone, MapPin, Calendar, FileCode } from 'lucide-react';
+import { Mail, Phone, MapPin, Calendar, FileCode } from 'lucide-react';
 import { aboutMe, skills, experiences } from '../data/portfolioData';
 
 const AboutSection: React.FC = () => {
@@ -39,15 +39,7 @@ const AboutSection: React.FC = () => {
           <div className="lg:col-span-2">
             <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-sm transition-colors">
               <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-blue-100 dark:bg-blue-900/30 rounded-full text-blue-600 dark:text-blue-400">
-                    <User size={20} />
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Full Name</p>
-                    <p className="font-medium text-gray-900 dark:text-white">{aboutMe.name}</p>
-                  </div>
-                </div>
+                
                 
                 <div className="flex items-center space-x-3">
                   <div className="p-2 bg-blue-100 dark:bg-blue-900/30 rounded-full text-blue-600 dark:text-blue-400">
@@ -89,7 +81,7 @@ const AboutSection: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Experience</p>
-                    <p className="font-medium text-gray-900 dark:text-white">1-2 Years</p>
+                    <p className="font-medium text-gray-900 dark:text-white">2-3 Years</p>
                   </div>
                 </div>
                 
@@ -99,14 +91,14 @@ const AboutSection: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 dark:text-gray-400">Specialization</p>
-                    <p className="font-medium text-gray-900 dark:text-white">Full-Stack Development (MEAN)</p>
+                    <p className="font-medium text-gray-900 dark:text-white">Full-Stack Development (MERN)</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-8">
                 <a 
-                  href="/Fouad Emad Full-Stack Developer (MEAN Stack).pdf"
+                  href="/Fouad Emad Full-Stack Developer (MERN Stack).pdf"
                   target="_blank"
                   download="My_Resume.pdf"
                   className="inline-flex items-center justify-center w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors shadow-sm"
@@ -142,7 +134,18 @@ const AboutSection: React.FC = () => {
                         {exp.position}
                       </h4>
                       <div className="flex flex-wrap items-center gap-2 mt-1 mb-2">
-                        <span className="text-blue-600 dark:text-blue-400 font-medium">{exp.company}</span>
+                        {exp.companyUrl ? (
+                          <a
+                            href={exp.companyUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-600 dark:text-blue-400 font-medium hover:underline"
+                          >
+                            {exp.company}
+                          </a>
+                        ) : (
+                          <span className="text-blue-600 dark:text-blue-400 font-medium">{exp.company}</span>
+                        )}
                         <span className="w-1.5 h-1.5 rounded-full bg-gray-400 dark:bg-gray-600"></span>
                         <span className="text-gray-500 dark:text-gray-400">{exp.duration}</span>
                       </div>

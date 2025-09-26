@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
   const typingRef = useRef<HTMLSpanElement>(null);
   
   useEffect(() => {
-    const texts = ["Full-Stack Developer", "MEAN Specialist", "Node.js & Express", "MongoDB & React"];
+    const texts = ["Full-Stack Developer", "MERN Specialist", "Node.js & Express", "MongoDB & React"];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -81,10 +81,7 @@ const HeroSection: React.FC = () => {
                 {aboutMe.title}
               </div>
               
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 dark:text-white mb-4 transition-colors animate-fade-in-up animation-delay-100">
-                Hello, I'm<br className="md:hidden" /> {aboutMe.name.split(' ')[0]} 
-                <span className="text-blue-600 dark:text-blue-400">.</span>
-              </h1>
+              
               
               <h2 className="text-xl sm:text-2xl text-gray-700 dark:text-gray-300 transition-colors mb-8 h-8 animate-fade-in-up animation-delay-200">
                 I'm a <span ref={typingRef} className="text-blue-600 dark:text-blue-400 font-medium"></span>
@@ -117,7 +114,7 @@ const HeroSection: React.FC = () => {
               <div className="relative w-full aspect-square max-w-md mx-auto">
                 <img 
                   src={aboutMe.profileImage} 
-                  alt={aboutMe.name}
+                  alt={aboutMe.title}
                   className="rounded-full shadow-2xl object-cover w-full h-full"
                 />
                 <div className="absolute inset-0 rounded-full ring-1 ring-black/10 dark:ring-white/10"></div>

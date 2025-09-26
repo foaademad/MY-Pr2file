@@ -26,6 +26,7 @@ export interface Service {
 export interface Experience {
   id: string;
   company: string;
+  companyUrl?: string;
   position: string;
   duration: string;
   description: string[];
@@ -358,8 +359,8 @@ export const projects: Project[] = [
 export const services: Service[] = [
   {
     id: 'service1',
-    title: 'Full-Stack Development (MEAN)',
-    description: 'Designing and building end-to-end web apps with MongoDB, Express.js, Angular, and Node.js.',
+    title: 'Full-Stack Development (MERN)',
+    description: 'Designing and building end-to-end web apps with MongoDB, Express.js, React, and Node.js.',
     icon: 'code'
   },
   {
@@ -389,19 +390,32 @@ export const services: Service[] = [
   {
     id: 'service6',
     title: 'Technical Consultation',
-    description: 'Providing expert advice on full-stack (MEAN) architecture, technology choices, and deployment strategies.',
+    description: 'Providing expert advice on full-stack (MERN) architecture, technology choices, and deployment strategies.',
     icon: 'message-square'
   }
 ];
 
 export const experiences: Experience[] = [
   {
+    id: 'exp3',
+    company: 'Leen Company',
+    companyUrl: 'https://leen.work/',
+    position: 'Full-Stack Developer (MERN)',
+    duration: '2025 - Present',
+    description: [
+      'Designed and built full-stack web apps using MongoDB, Express.js, React, and Node.js',
+      'Implemented REST APIs, JWT authentication, and role-based access control',
+      'Managed deployments and CI/CD pipelines on platforms like Vercel and Render',
+      'Collaborated across design and engineering to deliver performant, user-centric solutions'
+    ]
+  },
+  {
     id: 'exp1',
     company: 'Freelancer Web Development',
-    position: 'Full-Stack Developer (MEAN)',
+    position: 'Full-Stack Developer (MERN)',
     duration: '2024 - Present',
     description: [
-      'Designed and built full-stack web apps using MongoDB, Express.js, Angular/React, and Node.js',
+      'Designed and built full-stack web apps using MongoDB, Express.js, React, and Node.js',
       'Implemented REST APIs, JWT authentication, and role-based access control',
       'Managed deployments and CI/CD pipelines on platforms like Vercel and Render',
       'Collaborated across design and engineering to deliver performant, user-centric solutions'
@@ -410,12 +424,12 @@ export const experiences: Experience[] = [
   {
     id: 'exp2',
     company: 'Yes Course Company',
-    position: 'Instructor Full-Stack Developer (MEAN)',
+    position: 'Instructor Frontend Developer',
     duration: '2023 - 2024',
     description: [
-      'Taught full-stack (MEAN) development with real-world projects and best practices',
-      'Guided students through building RESTful APIs, authentication, and database modeling',
-      'Developed learning materials covering Angular, Node.js, Express, and MongoDB',
+      'Taught frontend development with real-world projects and best practices',
+      'Guided students through building projects using html & css & javascript and tailwind css ',
+      'Developed learning materials covering React Js & Tailwind Css & JavaScript & TypeScript and Teamwork',
       'Mentored on state management, performance optimization, and deployment workflows'
     ]
   }
@@ -423,14 +437,12 @@ export const experiences: Experience[] = [
 
 export const aboutMe = {
   name: 'Fouad Emad',
-  title: 'Full-Stack Developer (MEAN Stack)',
+  title: 'Full-Stack Developer (MERN Stack)',
   location: 'Egypt, Beheira Governorate',
   email: 'Foaademad66@gmail.com',
   phone: '+20 01099460174',
   github: 'github.com/foaademad',
   linkedin: 'www.linkedin.com/in/fouad-el-bakly-2ba15a251/',
   profileImage: './image/img.jpg',
-  bio: `I'm a Full-Stack Developer (MEAN) with 1-2 years of experience building scalable, user-centered applications. I work across the stack with MongoDB, Express.js, Angular/React, and Node.js to deliver performant, maintainable solutions.
-  I combine clean architecture with pragmatic problem-solving to create real business value, from intuitive UIs to secure APIs and efficient data models.
-  When I'm not coding, I explore new technologies, contribute to open source, and share knowledge through meetups and content.`
+  bio: `I'm a Full-Stack Developer (MERN) with experience in building scalable, user-centered applications. I work across the stack with MongoDB, Express.js, React, and Node.js to deliver performant, maintainable solutions. I combine clean architecture with pragmatic problem-solving to create real business value — from intuitive UIs to secure APIs and efficient data models.`
 };
