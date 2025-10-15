@@ -98,7 +98,7 @@ const AboutSection: React.FC = () => {
 
               <div className="mt-8">
                 <a 
-                  href="/Fouad Emad Full-Stack Developer (MERN Stack).pdf"
+                  href="Fouad Emad Full-Stack Developer (MEAN Stack).pdf"
                   target="_blank"
                   download="My_Resume.pdf"
                   className="inline-flex items-center justify-center w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors shadow-sm"
