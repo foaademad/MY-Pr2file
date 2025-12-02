@@ -33,18 +33,19 @@ export interface Experience {
 }
 
 export const skills: Skill[] = [
-  { name: 'React', level: 95, category: 'frontend' },
-  { name: 'TypeScript', level: 95, category: 'frontend' },
-  { name: 'JavaScript', level: 95, category: 'frontend' },
-  { name: 'HTML/CSS', level: 95, category: 'frontend' },
+  { name: 'Next.js', level: 98, category: 'frontend' },
+  { name: 'React', level: 98, category: 'frontend' },
+  { name: 'TypeScript', level: 98, category: 'frontend' },
+  { name: 'JavaScript', level: 98, category: 'frontend' },
   { name: 'Tailwind CSS', level: 97, category: 'frontend' },
+  { name: 'Redux Toolkit', level: 98, category: 'frontend' },
   { name: 'Redux', level: 95, category: 'frontend' },
-  { name: 'Next.js', level: 95, category: 'frontend' },
   { name: 'React Native', level: 90, category: 'frontend' },
+  { name: 'HTML/CSS', level: 95, category: 'frontend' },
   { name: 'Node.js', level: 90, category: 'backend' },
   { name: 'Express.js', level: 95, category: 'backend' },
   { name: 'MongoDB', level: 95, category: 'backend' },
-  { name: 'REST APIs', level: 90, category: 'backend' },
+  { name: 'REST APIs', level: 97, category: 'backend' },
   { name: 'Git', level: 99, category: 'tools' },
   { name: 'Figma', level: 95, category: 'tools' },
   { name: 'Problem Solving', level: 90, category: 'soft' },
@@ -54,15 +55,16 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
-    id: 'project1',
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce platform with shopping cart, user authentication, and payment processing.',
-    image: 'https://res.cloudinary.com/ch2p/image/upload/v1743736279/ImagesSearch/iws4eywhk5bxrxkvcx6h.jpg',
-    technologies: ['Html ', 'Css', 'Javascript', 'Sass'],
-    demoUrl: 'https://ch2b.net/',
+    id: 'project22',
+    title: 'Dogs Website',
+    description: 'This site provide dog-related content or services, such as: Information about dog breeds, care tips, or training advice, akin to Healthy’s wellness resources but focused on pets.',
+    image: './image/dogs.png',
+    technologies: ['React', 'Redux', 'Twilind', 'Sass','TypeScript', ' Router'],
+    demoUrl: 'hhttps://dogs-website-react.vercel.app/',
     repoUrl: 'https://github.com/foaademad',
-    featured: true,
+    featured: false,
     category: 'web'
+
   }
   ,
   {
@@ -76,17 +78,6 @@ export const projects: Project[] = [
     featured: false,
     category: 'web'
 
-  },
-  {
-    id: 'project2',
-    title: 'Be Startup Platform',
-    description: 'The website appears to be an AI-powered content generation platform, offering tools for writing social media ads, blog posts, essays, and more, along with AI voiceovers and code generation. It emphasizes quick, unique, and human-like content creation using AI.',
-    image: './image/BeStartup.png',
-    technologies: ['React', 'TypeScript', 'Twilind', 'JavaScript'],
-    demoUrl: 'https://bestartup.ai/',
-    repoUrl: 'https://github.com/foaademad',
-    featured: true,
-    category: 'web'
   },
   {
     id: 'project24',
@@ -327,6 +318,18 @@ export const projects: Project[] = [
   }
   ,
   {
+    id: 'project1',
+    title: 'E-commerce Platform',
+    description: 'A full-featured e-commerce platform with shopping cart, user authentication, and payment processing.',
+    image: './image/chap.png',
+    technologies: ['React', 'Redux', 'TypeScript', 'Redux Toolkit ','Twilind',"Next.js"],
+    demoUrl: 'https://ch2b.net/',
+    repoUrl: 'https://github.com/foaademad',
+    featured: true,
+    category: 'web'
+  }
+  ,
+  {
     id: 'project21',
     title: 'Resturant Website',
     description: 'This site provide restaurant-related services or information, such as: Displaying a digital menu with food items, prices, and descriptions, similar to Food-Web-Store’s “Food Menu” section. Enabling online ordering or table reservations, akin to FoodOrderCartApp’s cart system.',
@@ -337,23 +340,62 @@ export const projects: Project[] = [
     featured: true,
     category: 'web'
 
+  },
+  {
+    id: 'project2',
+    title: 'Be Startup Platform',
+    description: 'The website appears to be an AI-powered content generation platform, offering tools for writing social media ads, blog posts, essays, and more, along with AI voiceovers and code generation. It emphasizes quick, unique, and human-like content creation using AI.',
+    image: './image/BeStartup.png',
+    technologies: ['React', 'TypeScript', 'Twilind', 'JavaScript'],
+    demoUrl: 'https://bestartup.ai/',
+    repoUrl: 'https://github.com/foaademad',
+    featured: true,
+    category: 'web'
   }
   ,
   {
-    id: 'project22',
-    title: 'Dogs Website',
-    description: 'This site provide dog-related content or services, such as: Information about dog breeds, care tips, or training advice, akin to Healthy’s wellness resources but focused on pets.',
-    image: './image/dogs.png',
-    technologies: ['React', 'Redux', 'Twilind', 'Sass','TypeScript', ' Router'],
-    demoUrl: 'hhttps://dogs-website-react.vercel.app/',
+    id: 'project0',
+    title: 'Prime Academy',
+    description: 'Prime Academy is a platform for learning programming languages and technologies, it provides a variety of courses for different levels of learners.',
+    image: './image/prime.png',
+    technologies: ['React', 'Redux', 'TypeScript', 'Redux Toolkit ','Twilind',"Next.js"],
+    demoUrl: 'https://prime-edu.academy/',
+    repoUrl: 'https://github.com/foaademad',
+    featured: true,
+    category: 'web'
+  },
+ 
+  {
+    id: 'project27',
+    title: 'Backend API for APP Chat',
+    description: 'Backend API is a app for social media app, it chat with other users and send messages. using Node.js, Express.js, MongoDB, REST APIs, JWT, bcrypt, jsonwebtoken',
+    image: './image/App-Chat.png',
+    technologies: ['Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'JWT', 'bcrypt', 'jsonwebtoken'],
+    demoUrl: 'https://github.com/foaademad',
     repoUrl: 'https://github.com/foaademad',
     featured: false,
     category: 'web'
-
   }
-  ,
-  
-  
+  ,{
+    id: 'project28',
+    title: 'Backend API for App Lan Tok',
+    description: 'Backend API is a app for video funny app, it provide videos and make you laugh. using Node.js, Express.js, MongoDB, REST APIs, JWT, bcrypt, jsonwebtoken',
+    image: './image/App-Lan-Tok.png',
+    technologies: ['Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'JWT', 'bcrypt', 'jsonwebtoken'],
+    demoUrl: 'https://github.com/foaademad',
+    repoUrl: 'https://github.com/foaademad',  
+    featured: false,
+    category: 'web'
+  }
+
+
+
+
+
+
+
+
+
 ];
 
 export const services: Service[] = [
@@ -401,7 +443,7 @@ export const experiences: Experience[] = [
     company: 'Leen Company',
     companyUrl: 'https://leen.work/',
     position: 'Full-Stack Developer (MERN)',
-    duration: '2025 - Present',
+    duration: 'March 2025 - November 2025',
     description: [
       'Designed and built full-stack web apps using MongoDB, Express.js, React, and Node.js',
       'Implemented REST APIs, JWT authentication, and role-based access control',
@@ -438,7 +480,7 @@ export const experiences: Experience[] = [
 export const aboutMe = {
   name: 'Fouad Emad',
   title: 'Full-Stack Developer (MERN Stack)',
-  location: 'Egypt, Beheira Governorate',
+  location: 'Egypt, Cairo Governorate',
   email: 'Foaademad66@gmail.com',
   phone: '+20 01099460174',
   github: 'github.com/foaademad',
