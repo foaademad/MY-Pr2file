@@ -497,6 +497,42 @@ export const projects: Project[] = [
     repoUrl: 'https://github.com/foaademad',
     featured: false,
     category: 'mobile',
+  } ,
+  {
+    id: 'project38',
+    title: 'Tabahy',
+    description:
+      'Leading bilingual job platform connecting talent with fast‑growing companies worldwide: AI‑powered job matching, integrated ATS for CVs and screening, automatic outreach to suitable employers, trusted company profiles, and strong privacy and security.',
+    image: './image/tabahy.png',
+    technologies: ['React', 'Redux', 'TypeScript', 'Redux Toolkit ', 'Twilind', 'Next.js'],
+    demoUrl: 'https://tabahy.com/',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'web',
+  },
+  {
+    id: 'project39',
+    title: 'Jory Pack',
+    description:
+      'Sustainable B2B packaging company site for the MENA region: wholesale food‑grade bags, cups, containers, and custom printing; direct factory sourcing, eco lines (kraft, sugarcane, PLA), VAT‑compliant invoicing, and fast quote turnaround for restaurants and brands.',
+    image: './image/jorypack.png',
+    technologies: ['React', 'Redux', 'TypeScript', 'Redux Toolkit ', 'Twilind', 'Next.js'],
+    demoUrl: 'https://jorypack.com/',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'web',
+  },
+  {
+    id: 'project40',
+    title: 'FactoryX Machines',
+    description:
+      'B2B marketplace app linking Middle East buyers with industrial machinery suppliers in China: 80+ categories of used equipment, filters by country and condition, quote requests and photo‑based RFQs, spare parts, supplier messaging, favorites, and bilingual English/Arabic with full RTL.',
+    image: './image/factoryx-machines.jpg',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: 'https://apps.apple.com/eg/app/factoryx-machines/id6765801996',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
   }
 
 
