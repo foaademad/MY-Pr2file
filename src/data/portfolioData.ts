@@ -40,12 +40,12 @@ export const skills: Skill[] = [
   { name: 'Tailwind CSS', level: 97, category: 'frontend' },
   { name: 'Redux Toolkit', level: 98, category: 'frontend' },
   { name: 'Redux', level: 95, category: 'frontend' },
-  { name: 'React Native', level: 94, category: 'frontend' },
+  { name: 'React Native', level: 90, category: 'frontend' },
   { name: 'HTML/CSS', level: 95, category: 'frontend' },
-  { name: 'Node.js', level: 98, category: 'backend' },
-  { name: 'Express.js', level: 99, category: 'backend' },
-  { name: 'MongoDB', level: 98, category: 'backend' },
-  { name: 'REST APIs', level: 99, category: 'backend' },
+  { name: 'Node.js', level: 90, category: 'backend' },
+  { name: 'Express.js', level: 95, category: 'backend' },
+  { name: 'MongoDB', level: 95, category: 'backend' },
+  { name: 'REST APIs', level: 97, category: 'backend' },
   { name: 'Git', level: 99, category: 'tools' },
   { name: 'Figma', level: 95, category: 'tools' },
   { name: 'Problem Solving', level: 90, category: 'soft' },
@@ -386,6 +386,117 @@ export const projects: Project[] = [
     repoUrl: 'https://github.com/foaademad',  
     featured: false,
     category: 'web'
+  },
+  {
+    id: 'project29',
+    title: 'CarLink Cars',
+    description:
+      'Marketplace app for buying and selling cars and spare parts in Saudi Arabia and Egypt, with verified dealers, in‑app chat, garage profiles that match compatible parts, saved searches with alerts, maps for nearby listings, and Arabic/English support.',
+    image: './image/carlink-cars.jpg',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl:
+      'https://apps.apple.com/eg/app/carlink-cars-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA/id6761638474',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
+  },
+  {
+    id: 'project30',
+    title: 'Al Taif',
+    description:
+      'Utility app showcasing Al Taif’s product range for solving everyday and industrial needs—at home, in factories, hospitals, bridges, and other buildings—so users can explore solutions from one mobile experience.',
+    image: './image/al-taif.jpg',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: 'https://apps.apple.com/us/app/al-taif/id1587295907',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
+  },
+  {
+    id: 'project31',
+    title: 'LanChat App',
+    description:
+      'Social messaging app for sending and receiving chats with a clean interface, focused on simple day‑to‑day conversations and staying connected with friends.',
+    image: './image/lanchat-app.jpg',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: 'https://apps.apple.com/us/app/lanchat-app/id6759000572',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
+  },
+  {
+    id: 'project32',
+    title: 'Taseel Aqari (تسهيل عقاري)',
+    description:
+      'Business‑oriented real estate app that connects property seekers with consultants and developers, making listings and professional services easier to discover and follow up on.',
+    image: './image/taseel-aqari.jpg',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl:
+      'https://apps.apple.com/us/app/%D8%AA%D8%B3%D9%87%D9%8A%D9%84-%D8%B9%D9%82%D8%A7%D8%B1%D9%89/id6502578500',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
+  },
+  {
+    id: 'project33',
+    title: 'Lan Tok',
+    description:
+      'Short‑form video and entertainment app for browsing fun clips, engaging with lightweight social features, and discovering trending content—paired with APIs for feeds, profiles, and engagement.',
+    image: './image/App-Lan-Tok.png',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: 'https://apps.apple.com/us/app/lin-tok/id6757404912',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
+  },
+  {
+    id: 'project34',
+    title: 'BAKCRM',
+    description:
+      'Internal employee app for BAK teams: attendance and working hours, leave requests, team chat, HR/support tickets, and real‑time notifications—replacing scattered paperwork with one organized workflow.',
+    image: './image/bakcrm.webp',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: 'https://apps.apple.com/us/app/bakcrm/id6758316565',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
+  },
+  {
+    id: 'project35',
+    title: 'Nayomi Beauty Salon',
+    description:
+      'Salon lifestyle app for Nayomi Beauty Salon (Kamal Osman Jamjoom Group), highlighting personalized beauty services, elegant salon experiences, and accessible pricing since 2009.',
+    image: './image/Nayomi.webp',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: 'https://apps.apple.com/us/app/nayomi-beauty-salon/id1644606394',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
+  },
+  {
+    id: 'project36',
+    title: 'Eshraqa (إشراقة)',
+    description:
+      'Offline‑friendly lifestyle app for daily worship: structured prayer goals, dhikr schedules that grow over time, Quran memorization and review plans, a digital tasbeeh with optional sound, and weekly encouragement—without ads.',
+    image: './image/Eshraqa.webp',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl:
+      'https://apps.apple.com/us/app/%D8%A5%D8%B4%D8%B1%D8%A7%D9%82%D8%A9/id6449609203',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
+  },
+  {
+    id: 'project37',
+    title: 'Dilnia Insurance',
+    description:
+      'All‑in‑one insurance app covering motor, medical, travel, home, property, engineering, and aviation: instant quotes, policy management and renewals, support contact, and centralized documents—backed by Dilnia Insurance since 2007.',
+    image: './image/Dilnia.png',
+    technologies: ['React Native', 'Expo', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: 'https://apps.apple.com/us/app/dilnia/id6746866042',
+    repoUrl: 'https://github.com/foaademad',
+    featured: false,
+    category: 'mobile',
   }
 
 
